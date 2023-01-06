@@ -6,7 +6,7 @@ def geturlfacebook(url):
     url2 = "https://facebook-reel-and-video-downloader.p.rapidapi.com/app/main.php"
     querystring = {"url":f"{url}"}
     headers = {
-	"X-RapidAPI-Key": "97f009c328msh0526e3854dee42bp14ec32jsnc22930cf6e50",
+	"X-RapidAPI-Key": "yout key",
 	"X-RapidAPI-Host": "facebook-reel-and-video-downloader.p.rapidapi.com"
     }
     response = requests.request("GET", url2, headers=headers, params=querystring)
@@ -26,7 +26,7 @@ def urlinsta(url):
     url2 = "https://instagram-downloader-download-instagram-videos-stories.p.rapidapi.com/index"
     querystring = {"url":f"{url}"}
     headers = {
-	"X-RapidAPI-Key": "97f009c328msh0526e3854dee42bp14ec32jsnc22930cf6e50",
+	"X-RapidAPI-Key": "yout key",
 	"X-RapidAPI-Host": "instagram-downloader-download-instagram-videos-stories.p.rapidapi.com"
     }
     response = requests.request("GET", url2, headers=headers, params=querystring)
@@ -39,7 +39,7 @@ def urltiktok(url):
     url2 = "https://tiktok-video-no-watermark2.p.rapidapi.com/"
     querystring = {"url":"https://www.tiktok.com/@tiktok/video/7106658991907802411","hd":"0"}
     headers = {
-	"X-RapidAPI-Key": "97f009c328msh0526e3854dee42bp14ec32jsnc22930cf6e50",
+	"X-RapidAPI-Key": "yout key",
 	"X-RapidAPI-Host": "tiktok-video-no-watermark2.p.rapidapi.com"
     }
     response = requests.request("GET", url2, headers=headers, params=querystring)
